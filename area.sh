@@ -1,4 +1,5 @@
-#!/bin/bash
+X
+ #!/bin/bash
 
 #This program shows the area of a rectangle 
 #The user provides the dimentions 
