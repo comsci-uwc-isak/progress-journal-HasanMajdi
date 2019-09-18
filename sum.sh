@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#this fille adds alla the arguments
-sum=0
+#this fille adds all the arguments
+sum=4
 for arg in $*
 do
   	(( sum= $sum + arg ))

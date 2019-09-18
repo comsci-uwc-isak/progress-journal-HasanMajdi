@@ -6,12 +6,13 @@
 for car in Chevrolet Tyota Nissan Tyota Tesla Honda 4Runner Ferrari BMW 
 do 
 		echo"our favorite cars are $car" 
-		echo"THe length of the car is: ${#car} "
+		echo"The length of the car is: ${#car} "
 
 
 done 
 
 #example 2
+
 for (( x=1; x<=10; x++ ))
 do 
 	echo "iterration : $x"
