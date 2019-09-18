@@ -1,4 +1,4 @@
-How to creat a bash program that automaticcly ctrates folders and files.
+How to creat a bash program that automaticlly ctrates folders and files.
 ==
 
 this code below shows how to run this task. the **key** is to remember that commands in the terminal also run in the bash script
