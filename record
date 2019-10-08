@@ -1,0 +1,17 @@
+!#/bin/bash 
+
+#this program records a trip in the file of a car provided 
+if [ $# -ne 2]; then
+	echo "error with in the number of arguments"
+	echo "enter license distance"
+
+fi
+km=$2
+license=$1
+#check if file exist. using the ! to ask if the file does not exist.
+if [ ! -f "$license.txt" ]; then 
+	echo "car does not exist"
+	exit
+fi
+echo "$km" >> $licnese.txt 
+bash frame3 "trip recorded successfully"
